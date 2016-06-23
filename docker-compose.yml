@@ -1,0 +1,7 @@
+version: '2'
+services:
+  app:
+    image: joeferner/node-java
+    working_dir: /code
+    volumes:
+      - .:/code
